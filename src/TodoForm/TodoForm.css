@@ -1,0 +1,86 @@
+.Modal-content {
+    background-color: #f0f0f3;
+    border-radius: 12px;
+    padding: 32px;
+    width: 80%;
+    max-width: 300px; /* Limita el tamaño en pantallas grandes */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+
+  /* Título del formulario */
+.todoform-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Estilo del textarea */
+  textarea {
+    width: 90%;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 6px 6px 12px #c9c9c9, inset -6px -6px 12px #ffffff; /* Sombras internas neumorfistas */
+    padding: 16px;
+    font-size: 24px;
+    font-family: inherit;
+    resize: none;
+    color: #333;
+  }
+  
+  textarea:focus {
+    outline: none;
+    box-shadow: inset 4px 4px 8px #c9c9c9, inset -4px -4px 8px #ffffff; /* Sombras más suaves al enfocarse */
+  }
+  
+  /* Área de botones */
+  .todoform-btn-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  /* Botones del formulario */
+  .TodoForm-button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .TodoForm-button--cancel {
+    background-color: #f0f0f3;
+    color: black; 
+
+  }
+  
+  .TodoForm-button--cancel:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #ffffff;
+  }
+  
+  .TodoForm-button--add {
+    background-color: #61dafa;
+    color: black; /* Verde suave para el botón confirmar */
+    box-shadow: 8px 8px 15px #c9c9c9, -8px -8px 15px #ffffff;
+  }
+  
+  .TodoForm-button--add:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #ffffff;
+  }
+  
+  .TodoForm-button:active {
+    box-shadow: inset 6px 6px 12px #c9c9c9, inset -6px -6px 12px #ffffff;
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,6 @@
+.warning-message {
+    color: red;               /* Color del texto */
+    text-align: center;       /* Centrado en la línea */
+    margin-top: 10px;         /* Espacio respecto al componente superior */
+    font-size: 24px;          /* Tamaño del texto (opcional, ajustable) */
+}

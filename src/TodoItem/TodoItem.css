@@ -1,0 +1,54 @@
+.TodoItem {
+    background-color:#fafafa;
+    display:flex;
+    align-items:center;
+    position:relative;
+    justify-content:center;
+    margin-top:24px;
+    box-shadow:0 5px 50px rgba(32,35,41,.15)
+}
+
+.TodoItem-p {
+    margin:24px 0 24px 24px;
+    width:calc(100% - 120px);
+    font-size:18px;
+    line-height:24px;
+    font-weight:400
+}
+
+.TodoItem-p--complete {
+    text-decoration:line-through
+}
+
+/* Estilos para los items */
+.TodoItem {
+  background-color: #f0f0f3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 15px #c9c9c9, -8px -8px 15px #ffffff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.TodoItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #ffffff;
+}
+
+/* Texto del item */
+.TodoItem-p {
+  margin: 0 16px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  color: #888;
+}

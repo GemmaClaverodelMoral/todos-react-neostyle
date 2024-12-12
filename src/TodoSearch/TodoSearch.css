@@ -1,0 +1,28 @@
+.TodoSearch {
+  background: #f0f0f3; /* Fondo claro característico del neumorfismo */
+  border-radius: 12px; /* Bordes más redondeados para suavizar el diseño */
+  border: none; /* Eliminamos el borde sólido */
+  margin-top: 24px;
+  height: 40px;
+  padding: 8px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #1e1e1f;
+  box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #ffffff; /* Sombras neumorfistas */
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.TodoSearch::placeholder {
+  color: #a5a5a5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.TodoSearch:focus {
+  outline: none; /* Eliminamos el borde de enfoque predeterminado */
+  box-shadow: inset 4px 4px 8px #c9c9c9, inset -4px -4px 8px #ffffff; /* Sombras internas al enfocar */
+  transform: scale(1.02); /* Leve aumento para indicar interacción */
+}
+

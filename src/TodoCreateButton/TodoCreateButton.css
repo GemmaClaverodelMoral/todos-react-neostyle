@@ -1,0 +1,30 @@
+.TodoCreateButton {
+    background-color: #f0f0f3; /* Fondo claro para el neumorfismo */
+    box-shadow: 8px 8px 15px #c9c9c9, -8px -8px 15px #ffffff; /* Sombras características del estilo */
+    border: none;
+    border-radius: 50%; /* Mantiene la forma circular */
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: 700;
+    color: #61dafa; /* Azul del texto para destacar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    transform: rotate(0);
+    transition: 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .TodoCreateButton:hover {
+    transform: rotate(224deg);
+    box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #ffffff; /* Sombras reducidas para efecto dinámico */
+  }
+  
+  .TodoCreateButton:active {
+    box-shadow: inset 6px 6px 12px #c9c9c9, inset -6px -6px 12px #ffffff; /* Sombras internas al presionar */
+    transform: scale(0.95); /* Simula un botón presionado */
+  }
