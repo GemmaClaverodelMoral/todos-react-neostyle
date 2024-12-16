@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todos-react-neostyle/static/css/main.5616cbb1.css",
+    "main.js": "/todos-react-neostyle/static/js/main.bead1baf.js",
+    "index.html": "/todos-react-neostyle/index.html",
+    "static/media/delete.svg": "/todos-react-neostyle/static/media/delete.67697f56fd2f149bc9515a879062ad5c.svg",
+    "main.5616cbb1.css.map": "/todos-react-neostyle/static/css/main.5616cbb1.css.map",
+    "main.bead1baf.js.map": "/todos-react-neostyle/static/js/main.bead1baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5616cbb1.css",
+    "static/js/main.bead1baf.js"
+  ]
+}
